@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Cronômetro</title>
+  </head>
+  <body>
+    <h2>Cronômetro Digital</h2>
+
+    <main>
+      <div class="timer-main">
+        <div>
+          <span class="hours" id="hours">00</span>
+          <span class="txt-hours">Hours</span>
+        </div>
+
+        <div>
+          <span class="minutes" id="minutes">00</span>
+          <span class="txt-minutes">Minutes</span>
+        </div>
+
+        <div>
+          <span class="seconds" id="seconds">00</span>
+          <span class="txt-hours">Seconds</span>
+        </div>
+      </div>
+      <div class="btn-timer">
+        <button class="btn-start" onclick="timerSeconds()">Start</button>
+        <button class="btn-pause" onclick="timerPause()">Pause</button>
+        <button class="btn-stop" onclick="timerStop()">Stop</button>
+      </div>
+
+      <h3 class="txt-pause" id="txt-pause">Cronômetro Parado!</h3>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+* {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: rgb(255, 166, 0);
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin-top: 15%;
+}
+
+.timer-main {
+  background-color: rgba(204, 204, 204, 0.082);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  width: 70%;
+}
+
+.btn-timer {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  height: 40px;
+  width: 140px;
+  margin-top: 10px;
+  font-size: 20px;
+  border-color: white;
+  border-color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+.btn-start {
+  background-color: green;
+}
+
+.btn-start:hover {
+  background-color: rgba(0, 128, 0, 0.705);
+}
+
+.btn-pause {
+  background-color: grey;
+}
+
+.btn-pause:hover {
+  background-color: rgba(128, 128, 128, 0.671);
+}
+
+.btn-stop {
+  background-color: red;
+}
+
+.btn-stop:hover {
+  background-color: rgba(255, 0, 0, 0.616);
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 35px;
+  color: rgb(255, 166, 0);
+  animation: animate 2s linear infinite;
+}
+
+.hide {
+  display: none;
+}
+
+@keyframes animate {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 2;
+  }
+}
