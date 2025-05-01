@@ -1,4 +1,4 @@
-[🇺🇸 View in English](./README.en.md)
+[🇧🇷 Ver em Português](./README.md)
 
 #
 
@@ -19,11 +19,11 @@
   </p>
 </div>
 
-## ❕ SOBRE
+## ❕ ABOUT
 
-Cronômetro digital é uma aplicação que te ajuda a controlar e otimizar o seu tempo.
+Digital Stopwatch is an application that helps you control and optimize your time.
 
-## ▶ Demonstração
+## ▶ Demo
 
 🔗 https://mateussilvacrs.github.io/Cronometro-Digital/
 
@@ -35,37 +35,42 @@ Cronômetro digital é uma aplicação que te ajuda a controlar e otimizar o seu
   <img src="https://awesomescreenshot.s3.amazonaws.com/image/6353305/54213404-d07313b1ce9b3bf4f4173e2115c26168.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20250501%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250501T165506Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=6149d92295723fd432e73b6a981e383d4f55b31a3e058b3460803108b8353fc3">
 </div>
 
-## ⚙ Funcionalidades
+## ⚙ Features
 
-- Iniciar contagem progressiva
-- Pausar o tempo
-- Zerar o cronômetro
+- Start countdown
+
+- Pause the timer
+
+- Reset the stopwatch
 
 ## ❓ FAQ
 
-**Como usar a aplicação?**
+**How do I use the application?**
 
-Basta acessar o [link](https://mateussilvacrs.github.io/Cronometro-Digital/) e para iniciar o cronômetro, clique em "Start" para começar a contagem.
+Just access the link, and to start the stopwatch, click on "Start" to begin the count.
 
-**Como faço para pausar o tempo?**
+**How do I pause the timer?**
 
-Você pode pausar o tempo clicando em "Pause", e, para continuar, clique novamente em "Start" para continuar.
+You can pause the timer by clicking on "Pause", and to resume, click on "Start" again.
 
-**Como zerar o cronômetro?**
+**How do I reset the stopwatch?**
 
-Para zerar o cronômetro você pode clicar em "Stop" que o seu cronômetro será zerado.
+To reset the stopwatch, you can click on "Stop", and your stopwatch will be reset.
 
-## 💻 Tecnologias usadas
+## 💻 Technologies used
 
-**Front-end:** HTML, CSS e JavaScript
+Front-end: HTML, CSS, and JavaScript
 
-## 🤔 Por que este projeto foi criado?
+## 🤔 Why was this project created?
 
-Eu criei esse projeto em 2023 para fins educativos. Com ele, aprendi novas soluções e reforcei alguns conceitos que havia aprendido em HTML, CSS e JavaScript. Mesmo sendo um projeto simples, foi um grande desafio para mim, que ainda não me dedicava tanto à área de programação.
+I created this project in 2023 for educational purposes. Through it, I learned new solutions and reinforced some concepts I had previously learned in HTML, CSS, and JavaScript. Even though it’s a simple project, it was a big challenge for me, as I wasn’t very dedicated to programming at the time.
 
-### O que aprendi?
+## What did I learn?
 
-- Manipulação do DOM
-- Manipulação de tempo com código
-- Lógica de programação
-- Formatação de código
+- DOM manipulation
+
+- Time manipulation with code
+
+- Programming logic
+
+- Code formatting
